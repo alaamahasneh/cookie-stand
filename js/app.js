@@ -1,6 +1,9 @@
 'use strict'
 var shops = [];
+var form =document.getElementById("newShop");
 var container = document.getElementById("salmon");
+// create and append article to the container
+
 var tableEl = document.createElement('table');
 container.appendChild(tableEl);
 
@@ -40,7 +43,23 @@ Shop.prototype.render = function () {
     trEl.appendChild(totalTdEl);
     totalTdEl.textContent = this.total;
 };
+function handleSubmit(event) {
+    event.preventDefault();
+    var name = event.target.name.value;
+    var min = event.target.min.value;
+    var max = event.target.max.value;
+    var avgCookies = event.target.avgCookies.value;
+    var newShops = new Shop(name,min,max,avgCookies);
+    var rowCount = tableEl.rows.length;
+    tableEl.deleteRow(rowCount -1);
+    newShops.render();
+    renderFooter();
+    form.reset();
 
+}
+// OR / form.addEventListener("submit",function(event));
+
+form.addEventListener("submit",handleSubmit);
 var seattle = new Shop("Seattle", 23, 65, 6.3);
 var tokyo = new Shop("Tokyo", 3, 24, 1.2);
 var dubai = new Shop("Dubai", 11, 38, 3.7);

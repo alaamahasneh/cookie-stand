@@ -10,7 +10,7 @@ numper of custmors,and the amount of coockies that have sold.
 I used (Google) alot and got help from my instructor and TA's.
 
 
-*including*
+*including:*
 - object construction functions .
 - for loops.
 - console for checking.
