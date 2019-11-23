@@ -48,15 +48,19 @@ background-attachment: fixed;
 .welcome{
     padding-top: 10px;
     text-align: center;
+    
 }
  body nav ul{
       text-align: center;
+     
   }
   body nav ul li{
       font-family: 'Lobster';
       font-size: 20px;
       display: inline-block;
       overflow: auto;
+      
+
   }
   body nav ul li:hover{
       cursor: pointer;
@@ -96,3 +100,18 @@ background-attachment: fixed;
     margin-left: 50px;
 
   }
+  #img1:hover{
+    
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+     
+  }
+  div{
+    animation: mymove 5s infinite;
+
+      text-align: center;
+  }
+  #img3{
+      size: 0.5px * 0.5px;
+        }
+ 
