@@ -1,3 +1,98 @@
-body{
-    background-color: palevioletred;
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Montserrat+Alternates&display=swap');
+html { 
+    background: url(https://bythax.org/wp-content/uploads/2011/09/PaintSwatches_1920x1234.jpg) ; 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+background-attachment: fixed; 
 }
+  header{
+      background-image: url(http://maduvvareeschool.edu.mv/wp-content/uploads/header-2.png);
+      margin-top: 0px;
+     background-size: cover;
+      width: 160px;
+      position: fixed;
+    
+  }
+  .logo{
+    float: left;
+    object-fit: 50%;
+    width: 125px ;
+    height: 125px;
+    border-radius: 50%;
+    opacity: 75%;
+    margin: 10px;
+}
+.salmon{
+    font-family: 'Monoton', cursive;
+
+}
+.best{
+    font-family: 'Lemonada', cursive;
+
+}
+#cookies{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+
+
+}
+#web{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+
+
+}
+.welcome{
+    padding-top: 10px;
+    text-align: center;
+}
+ body nav ul{
+      text-align: center;
+  }
+  body nav ul li{
+      font-family: 'Lobster';
+      font-size: 20px;
+      display: inline-block;
+      overflow: auto;
+  }
+  body nav ul li:hover{
+      cursor: pointer;
+      color: rgba(32, 5, 5, 0.658);
+      transform: scale(2.1);
+      transition:250ms;
+  }
+  #A{
+      background-color:rgb(212, 10, 10) ;
+      padding:15px 25px 15px 25px;
+      border-radius: 50px;
+  }
+  #B{
+    background-color:rgb(191, 226, 35) ;
+    padding:15px 25px 15px 25px;
+    border-radius: 50px;
+    margin-left: 50px;
+  }
+  #C{
+    background-color:rgb(61, 180, 201) ;
+    padding:15px 25px 15px 25px;
+    border-radius: 50px;
+    margin-left: 50px;
+
+  }
+  #D{
+    background-color:rgb(90, 88, 88) ;
+    padding:15px 25px 15px 25px;
+    border-radius: 50px;
+    margin-left: 50px;
+
+  }
+  #E{
+    background-color:rgb(212, 198, 10) ;
+    padding:15px 25px 15px 25px;
+    border-radius: 50px;
+    margin-left: 50px;
+
+  }
