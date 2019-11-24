@@ -54,8 +54,8 @@ function handleSubmit(event) {
     tableEl.deleteRow(rowCount -1);
     newShops.render();
     renderFooter();
-    form.reset();
-
+    theForm.reset();
+    
 }
 // OR / form.addEventListener("submit",function(event));
 
