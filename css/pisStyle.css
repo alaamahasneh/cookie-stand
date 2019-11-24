@@ -29,3 +29,14 @@ header{
 }
 .best{
   font-family: 'Lemonada', cursive;
+}
+.home{
+    text-align: center;
+display: block;
+background-color:rgb(212, 198, 10) ;
+    padding:15px 25px 15px 25px;
+    border-radius: 50px;
+    margin-left: 50px;
+    font-family: 'Lemonada', cursive;
+
+}

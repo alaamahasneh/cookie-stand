@@ -112,6 +112,15 @@ background-attachment: fixed;
       text-align: center;
   }
   #img3{
-      size: 0.5px * 0.5px;
+  
+      size: 0.5px * 0.5px;  
+      animation: fe30-anime 1s ease-in-out 4s forwards;
+
+        }
+        #img0{
+            border-radius: 30%;
+            opacity: 70%;
+  
+  
         }
  
